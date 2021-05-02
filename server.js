@@ -93,6 +93,8 @@ server.post("/delete/:id", (req, res) => {
 })
 
 //liguei meu servidor na porta 3000
-server.listen(3000)
+server.listen(3000, ()=> {
+    console.log("Server is running, port 3000")
+})
 
 
